@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
- * main - main block
- * Description: Prints the alphabets in lowercase, except q and e
- * Return: Always 0
+ * main - Prints the alphabet in lowercase, except for q and e.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -14,8 +15,6 @@ int main(void)
 			putchar(letter);
 	}
 
-	putchar('\n');
-
-	return (0);
-}
-				
+putchar('\n');
+return (0);
+}				
