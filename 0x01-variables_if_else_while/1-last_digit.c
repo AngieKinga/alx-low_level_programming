@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main -Entry point
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
@@ -10,7 +10,7 @@ int main(void)
 {
 	int n;
 	int L;
-	char str[] = "Last figit of";
+	char str[] = "Last digit of";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -21,7 +21,7 @@ int main(void)
 	else if (L == 0)
 		printf("%s %d is %d and is 0\n", str, n, L);
 	else if (L < 6)
-		printf("%s %d id %d and is less that 6\n", str, n, L);
+		printf("%s %d is %d and is less than 6 and not 0\n", str, n, L);
 
 	return (0);
 }
